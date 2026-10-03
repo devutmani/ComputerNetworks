@@ -1,0 +1,14 @@
+Student ID: 24K-0028
+Subject 1: Credit Hours: 3, Marks: 90.0, Grade: A+, GPA: 4.00
+Subject 2: Credit Hours: 3, Marks: 99.0, Grade: A+, GPA: 4.00
+Subject 3: Credit Hours: 3, Marks: 89.0, Grade: A, GPA: 4.00
+Subject 4: Credit Hours: 3, Marks: 98.0, Grade: A+, GPA: 4.00
+Overall CGPA: 4.00
+--------------------------------------------------
+Student ID: 25K-5542
+Subject 1: Credit Hours: 3, Marks: 99.0, Grade: A+, GPA: 4.00
+Subject 2: Credit Hours: 3, Marks: 100.0, Grade: A+, GPA: 4.00
+Subject 3: Credit Hours: 3, Marks: 99.0, Grade: A+, GPA: 4.00
+Subject 4: Credit Hours: 3, Marks: 98.0, Grade: A+, GPA: 4.00
+Overall CGPA: 4.00
+--------------------------------------------------

@@ -1,0 +1,13 @@
+TASK: 2
+
+1. What happens if two clients connect at exactly the same time and the server is NOT multithreaded?
+
+If the server is not multithreaded, it can handle only one client at a time. The second client has to wait until the server finishes processing the first client's request.
+
+2. Why is TCP preferred over UDP for this application?
+
+TCP is preferred because it provides reliable and ordered data delivery. The CGPA application requires all student data, such as student ID, credit hours, and marks, to be received correctly. UDP does not guarantee delivery or ordering.
+
+3. What issue can occur when multiple threads write to cgpa_log.txt at the same time, and how did you handle it?
+
+Multiple threads writing to the file simultaneously can cause race conditions, resulting in mixed or corrupted log data. I handled this using a mutex/lock (log_lock), which ensures that only one thread writes to cgpa_log.txt at a time.
